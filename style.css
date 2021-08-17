@@ -181,7 +181,7 @@ h2 {
 }
 
 button {
-  font-size: 25px;
+  font-size: 20px;
   font-family: 'Varela Round', sans-serif;
   background-color:rgb(0, 140, 255);
   display: block;
@@ -211,8 +211,8 @@ span {
   font-size: 25px;
 }
 
-.fat {
-  font-size: 14px;
+h1 {
+  font-size: 16px;
 }
 .modal .modal-body {
   padding: 20px;
