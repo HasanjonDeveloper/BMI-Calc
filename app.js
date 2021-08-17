@@ -27,17 +27,17 @@ check.addEventListener ('click', calculator)
         body.classList.remove ('thin')
         body.classList.add ('normal')
         body.classList.remove ('fat')
-        h1el.innerText = `Tabriklayman ${ism.value} siz normadasiz  `
-    } else if (bmi > 25)  {
+        h1el.innerText = ` Congratulations ${ism.value} you have a normal weight. Keep it up. `
+      } else if (bmi > 25)  {
         body.classList.remove ('thin')
         body.classList.remove ('normal')
         body.classList.add ('fat')
         h1el.innerText = `You are obese, please diet.`
     } else  {
-      body.classList.remove ('thin')
-      body.classList.remove ('normal')
-      body.classList.add ('fat')
-      h1el.innerText = `please fill full`
+        body.classList.remove ('thin')
+        body.classList.remove ('normal')
+        body.classList.add ('fat')
+        h1el.innerText = `please fill full`
   }
 } 
 
